@@ -47,6 +47,15 @@ A voice-driven iOS app with a revolutionary **multi-agent AI system** for intell
 - **Follow-up reminders**: Automatic reminders for tasks
 - **Confirmation mode**: Optional approval before adding items
 
+### 👥 People Tracking & Relationship Management
+- **Automatic people detection**: Identifies people mentioned in conversations
+- **Interaction logging**: Tracks meetings, calls, messages, and notes with each person
+- **Relationship context**: Maintains history of all interactions per person
+- **Smart categorization**: Separates past interactions from future plans
+- **Person files**: Each contact gets their own markdown file with full history
+- **Search & filter**: Quickly find all interactions with specific people
+- **Integration**: Works seamlessly with journal entries and calendar events
+
 ### 🛡️ Crash Safety & Recovery
 - **Incremental audio saving**: Never lose recordings
 - **Utterance queue**: Pending transcripts survive crashes
@@ -279,6 +288,44 @@ Claude will:
 - **One message**: No back-and-forth needed for multi-step tasks
 
 See `NEW_FEATURES_AND_FIXES_1.md` for complete implementation details (3,500+ lines of documentation).
+
+## 📚 Documentation
+
+This repository includes extensive documentation to help you understand the codebase:
+
+### **Start Here:**
+- **`DOCUMENT_INDEX.md`** - 📖 **Complete index of all documentation files** - Start here to navigate everything!
+
+### **Development Journey:**
+- **`WORKING_STATE_ONE.md`** - Initial app setup and core features
+- **`WORKING_STATE_TWO.md`** - Enhanced features and improvements  
+- **`WORKING_STATE_THREE.md`** - Advanced capabilities and refinements
+
+### **Multi-Agent System:**
+- **`NEW_FEATURES_AND_FIXES_1.md`** - 🌟 **3,500+ lines documenting the entire multi-agent implementation**
+  - Complete build log from Nov 18, 2025 (8:23pm - 10:30pm PST)
+  - All 6 bug fixes with code examples
+  - Architecture decisions and rationale
+  - Live testing results and performance metrics
+  - Every single code change documented
+
+### **Feature-Specific Docs:**
+- `PEOPLE_MERGE_FEATURE.md` - People tracking system implementation
+- `CALENDAR_REMINDERS_FIX.md` - Calendar/reminders integration fixes
+- `HOUSEKEEPING_FIX_NOV18.md` - Daily housekeeping automation
+- `LIVE_PROGRESS_FIX.md` - UI progress indicators
+- `CHAT_SESSIONS_FIX.md` - Chat session management
+
+### **Setup & Configuration:**
+- `API_SETUP_GUIDE.md` - Detailed API configuration instructions
+- `API_KEYS.md` - Security and key management guide
+- `ADD_MULTI_AGENT_FILES.md` - How to add multi-agent files to Xcode
+
+### **Session Notes:**
+- `USER_FEEDBACK_SESSION_NOV18.md` - User testing feedback and iterations
+- `TONIGHT_SESSION_SUMMARY.md` - Development session summaries
+
+**💡 Tip**: Open `DOCUMENT_INDEX.md` first - it provides a complete roadmap of all documentation with descriptions and direct links!
 
 ## Future Enhancements
 
